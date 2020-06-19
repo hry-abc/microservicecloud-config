@@ -22,7 +22,7 @@ spring:
       max-wait-millis: 200                                  # 等待连接获取的最大超时时间
       
 mybatis:
-  type-aliases-package: com.hc.entity   # 所有Entity别名类所在包
+  type-aliases-package: com.hc.springcloud.entity   # 所有Entity别名类所在包
   mapper-locations:
   - classpath:mybatis/mapper/*.xml                       # mapper映射文件
  
@@ -60,7 +60,7 @@ spring:
   
   
 mybatis:
-  type-aliases-package: com.hc.entity   # 所有Entity别名类所在包
+  type-aliases-package: com.hc.springcloud.entity   # 所有Entity别名类所在包
   mapper-locations:
   - classpath:mybatis/mapper/*.xml                       # mapper映射文件
  
